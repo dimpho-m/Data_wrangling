@@ -1,9 +1,0 @@
-Where do you apply this function to extract the integer values from the df:
-
-def numerate(string_pair):
-    num_list = [int(s) for s in re.findall('\d+', str(string_pair))]
-    return num_list
-
-The 'For' loop can't read number in brackets (x,y) as this is a string, applying above function properly first should solve this problem
-
-Remember, 'use functional programming techniques (map, reduce, apply) instead of loops when writing the functions'
